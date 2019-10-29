@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.66e326bc.chunk.css",
+    "main.js": "/static/js/main.f53ba31f.chunk.js",
+    "main.js.map": "/static/js/main.f53ba31f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bc098da3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bc098da3.js.map",
+    "static/css/2.510409cd.chunk.css": "/static/css/2.510409cd.chunk.css",
+    "static/js/2.238b8cff.chunk.js": "/static/js/2.238b8cff.chunk.js",
+    "static/js/2.238b8cff.chunk.js.map": "/static/js/2.238b8cff.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.af5ba5885bb5d37a2f1cc840d70ac9d3.js": "/precache-manifest.af5ba5885bb5d37a2f1cc840d70ac9d3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.510409cd.chunk.css.map": "/static/css/2.510409cd.chunk.css.map",
+    "static/css/main.66e326bc.chunk.css.map": "/static/css/main.66e326bc.chunk.css.map",
+    "static/media/App.css": "/static/media/Enlight5.421e2002.JPG",
+    "static/media/clicker.png": "/static/media/clicker.1c55eab1.png",
+    "static/media/flask.png": "/static/media/flask.2b905de3.png",
+    "static/media/neanderthal.png": "/static/media/neanderthal.c2e4ca4a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc098da3.js",
+    "static/css/2.510409cd.chunk.css",
+    "static/js/2.238b8cff.chunk.js",
+    "static/css/main.66e326bc.chunk.css",
+    "static/js/main.f53ba31f.chunk.js"
+  ]
+}
