@@ -4,8 +4,16 @@ import CookieClicker from "./components/CookieClicker";
 import clicker from "./img/clicker.png";
 import neanderthal from "./img/neanderthal.png";
 import flask from "./img/flask.png";
+import dataxfer from "./img/dataxfer.png";
+import classes from "./img/classes.png";
+import scouts from "./img/scouts.png";
+import luxwooden from "./img/luxwooden.jpg";
+import orenda from "./img/orenda.png";
+import hack from "./img/hackathon.png";
+import q0 from "./img/ext.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faUsers, faSearch, faCogs } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
@@ -71,7 +79,7 @@ function App() {
             <div class="col-md-4">
               <span class="fa-stack fa-4x">
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                <FontAwesomeIcon icon={faUsers} />
               </span>
               <h4 class="service-heading">Social Entrepreneurship</h4>
               <p class="text-muted">
@@ -84,7 +92,7 @@ function App() {
             <div class="col-md-4">
               <span class="fa-stack fa-4x">
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                <FontAwesomeIcon icon={faSearch} />
               </span>
               <h4 class="service-heading">Curiosity and Exploration</h4>
               <p class="text-muted">
@@ -98,7 +106,7 @@ function App() {
             <div class="col-md-4">
               <span class="fa-stack fa-4x">
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                <FontAwesomeIcon icon={faCogs} />
               </span>
               <h4 class="service-heading">Tech and Craftsmanship</h4>
               <p class="text-muted">
@@ -127,12 +135,13 @@ function App() {
             <div class="col-md-4 col-sm-6 portfolio-item">
               <div class="portfolio-caption">
                 <img class="img-fluid" src={neanderthal} alt="" />
-                <h4>Neanderthal.io</h4>
+                <h4>neanderthal.io</h4>
                 <p class="text-muted">
-                  My first out-of-school project! Simple Unity game with basic
+                  My first out-of-school project. Unity game with basic
                   animation, interaction, and world nagivation made in 12 hours.
-                  I learned Unity and C# while making this. This won third place
-                  at my high school's hackathon!
+                  Includes realistic gravity and projectile physics. I learned
+                  Unity and C# while making this. This won third place at my
+                  high school's hackathon!
                 </p>
               </div>
             </div>
@@ -146,7 +155,7 @@ function App() {
                   Receipts.me is a personal finance app that scans and
                   automatically tracks expenses from receipts. It was made as a
                   Flask app in python with sqlite, and I learned python just 3
-                  days before building it. Sadly it was never finished.
+                  days before building it.
                 </p>
               </div>
             </div>
@@ -155,22 +164,201 @@ function App() {
                 <img class="img-fluid" src={clicker} alt="" />
                 <h4>React Cookie Clicker</h4>
                 <p class="text-muted">
-                  This is my first React app, attached to the footer of this
-                  webpage! I first learned about React at Ziray's lecture ~2
-                  weeks ago, and I just learned it a few days ago to make this
-                  website and this cookie clicker.
+                  This is my first React app(along with this website)! I went to
+                  Ziray's React lecture ~2 weeks ago, and I just learned it a
+                  few days ago to make this website and this cookie clicker.
+                  Learned to lift state up, interact with props, and use
+                  lifecycle hooks.
                 </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <div class="portfolio-caption">
+                <img class="img-fluid" src={dataxfer} alt="" />
+                <h4>DataXfer</h4>
+                <p class="text-muted">
+                  Volunteering with a Tuck startup to help build an MVP.
+                  DataXfer aims to streamline call centers by referring callers
+                  to online links when faced with repetitive tasks like spelling
+                  their name. Still in planning phase but plan to use Django
+                  with Twilio API.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <div class="portfolio-caption">
+                <img class="img-fluid" src={classes} alt="" />
+                <h4>And more!</h4>
+                <p class="text-muted">
+                  From lawn-mower games to abstract art webcam filters, I've
+                  made some other cool projects in my classes, too. However, I'm
+                  only getting started, and I can't wait to learn and build so
+                  many more things in the future!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <div class="portfolio-caption">
+                <h4>The fabled cookie clicker...</h4>
+
+                <CookieClicker />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <CookieClicker />
+
+      <section class="page-section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading text-uppercase">My Journey</h2>
+              <h3 class="section-subheading text-muted">
+                Stories I carry with me.
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="timeline">
+                <li>
+                  <div class="timeline-image">
+                    <img
+                      class="rounded-circle img-fluid"
+                      src={scouts}
+                      alt="image1"
+                    />
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4>March 2012</h4>
+                      <h4 class="subheading">Joined the Boy Scouts</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">
+                        I joined BSA Troop 452 in Cupertino, California in fifth
+                        grade. Much of my character was developed here. I
+                        learned how to be confident in myself, communicate
+                        effectively, and serve others through leadership.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted">
+                  <div class="timeline-image">
+                    <img
+                      class="rounded-circle img-fluid"
+                      src={luxwooden}
+                      alt="image2"
+                    />
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4>June 2016</h4>
+                      <h4 class="subheading">
+                        Tried to Start my First Business
+                      </h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">
+                        Attended an summer bootcamp where I discovered my love
+                        for entrepreneurship. Sold laser-cut wooden postcards on
+                        the streets and online for a few weeks with a venture
+                        called Lux Wooden.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-image">
+                    <img
+                      class="rounded-circle img-fluid"
+                      src={orenda}
+                      alt="image3"
+                    />
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4>October 2016</h4>
+                      <h4 class="subheading">Joined Orenda Academy</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">
+                        I attended Orenda, an education program based on
+                        developing soft skills like interpersonal prowess, habit
+                        management, and life goal development, and then returned
+                        to be their first and only intern. There, I learned the
+                        importance of empathy and mission for organizations.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted">
+                  <div class="timeline-image">
+                    <img
+                      class="rounded-circle img-fluid"
+                      src={hack}
+                      alt="image4"
+                    />
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4>May 2017</h4>
+                      <h4 class="subheading">My First Hackathon</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">
+                        I had always enjoyed making something out of nothing
+                        using code before, but Hackathons cemented that for me.
+                        I love their frenetic pace, and that they allow me to
+                        wear multiple hats and unite my software and business
+                        skillsets.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-image">
+                    <img
+                      class="rounded-circle img-fluid"
+                      src={q0}
+                      alt="image3"
+                    />
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4>July 2018</h4>
+                      <h4 class="subheading">
+                        Launched Social Venture at a Summer Incubator
+                      </h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">
+                        I was part of Quarter Zero's 2018 cohort. I launched
+                        Viva music, an instrument donation nonprofit which was
+                        implemented for several schools in the Ferguson area in
+                        St.Louis. Building it up from the ground 12 hours a day
+                        for a summer was one of the best times of my life.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted">
+                  <div class="timeline-image">
+                    <h4>And my story continues!</h4>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer class="footer">
         <div class="container">
           <h5>
-            Copyright Jeff Liu 2019. Credit to startbootstrap.com for CSS and
-            some HTML I used as JSX. Made with React.js.
+            Copyright Jeff Liu 2019. Credit to startbootstrap.com for open
+            source CSS and HTML snippets. Made with React.js.
           </h5>
         </div>
         <div>

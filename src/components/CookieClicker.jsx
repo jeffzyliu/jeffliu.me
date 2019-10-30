@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PlayButton from "./PlayButton";
 import ShoppingItem from "./ShoppingItem";
 import CookieCounter from "./CookieCounter";
+import cookie from "../img/cookie.jpg";
 
 class CookieClicker extends Component {
   state = {
@@ -128,6 +129,9 @@ class CookieClicker extends Component {
                 onSwitch={this.startPlay}
                 isPlaying={this.isPlaying}
               />
+            </div>
+            <div>
+              <img class="img-fluid" src={cookie} alt="" />
             </div>
           </div>
         </div>
